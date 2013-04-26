@@ -1,4 +1,4 @@
-Thank you for choosing the Pink Xmas Theme.
+Thank you for choosing the Summer Day Theme.
 
 Version History:
 
@@ -6,14 +6,14 @@ version 1.0.0 - Hello world!
 
 --------------------------------------------------------------------------------
 For support, 
-visit http://pure-essence.net/2013/04/18/child-theme-for-twenty-twelve-Pink Xmas
+visit http://pure-essence.net/2013/04/26/child-theme-for-oriental-summer-day
 
 
 --------------------------------------------------------------------------------
  Licenses:
 --------------------------------------------------------------------------------
-Pink Xmas is a child theme of Twenty Twelve
-Twenty Twelve is licensed under the GPL.
+Summer Day is a child theme of oriental
+oriental is licensed under the GPL.
 
 == Bundled Resources: Images ==
 
