@@ -1,0 +1,486 @@
+/*
+Theme Name: Summer Day
+Theme URI: http://pure-essence.net/2013/04/18/child-theme-for-twenty-twelve-casually
+Author: Ying Zhang
+Author URI: http://regretless.com/
+Description: Summer Day builds off of Twenty Twelve, so you get all of the goodness of a WordPress core theme included.
+Version: 1.0.0
+Tags: light, pink, red, green, blue, two-column, left-sidebar, flexible-width, threaded-comments, sticky-post, post-formats
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+template: oriental
+*/
+
+@import url('../oriental/style.css');
+
+/* =========================================================================
+ *   Summer Day
+ * ========================================================================= */
+
+/* customized by pure-essence.net */
+html body,
+html body.custom-background,
+html body.custom-font-enabled {
+    background-color: #fff;
+    background-image: url(images/boat.png), url(images/treeLeft.png), url(images/treesRight.png), url(images/balloons.png), url(images/ocean.png), url(images/sun.png), url(images/skyBk.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, no-repeat, repeat-x;
+    background-position: 5% bottom, left top, right bottom, right top, left bottom, left top, left top;
+	background-attachment: fixed;
+    padding: 0;
+	font-family: "PT Sans Caption", Arial,Verdana,Helvetica,sans-serif;
+}
+
+html body a img {
+	border: 0;
+}
+
+a {
+	color: #004CA8;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #568A19;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Philosopher,serif;
+}
+
+#page {
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+	box-shadow: none;
+	background: transparent;
+	max-width: 960px;
+	width: auto;
+}
+
+#header-image-wrapper {
+    max-height: 100px;
+	line-height: 100px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+	background: rgba(255,255,255,.5);
+	min-width: 150px;
+	display: block;
+}
+#header-image-wrapper img {
+    vertical-align: middle;
+	max-width: 150px;
+}
+#nav-menu-wrapper {
+	margin: 0;
+	background: transparent;
+}
+
+#search-bar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 20px 2em 40px;
+	min-height: 24px;
+	background: rgba(255,255,255,.5);
+}
+
+#search-bar #s {
+	border-color: #1D71B8;
+	background: rgba(255,255,255,.8);
+	margin: 0;
+	padding: 3px;
+}
+#search-bar .assistive-text {
+}
+#search-bar #searchsubmit {
+	margin: 0 0 0 -6px;
+	width: 30px;
+	opacity: 0;
+}
+#search-bar #searchform {
+	background: url(images/magnifyingGlass.png) right center no-repeat;
+}
+
+#masthead hgroup {
+	padding-left: 0;
+	margin-left: 199px;
+}
+
+#masthead .site-title, #masthead .site-title a {
+	padding-top: 0;
+	color: #B1D500;
+	font-family: "Six Caps", serif;
+	font-weight: normal;
+	font-size: 1.8em;
+}
+#masthead .site-title {
+	border-bottom: 5px solid #D4D45B;
+	display: inline;
+}
+#masthead .site-description {
+	font-family: "Philosopher", serif;
+	color: #ECF4CF;
+	line-height: 1.8em;
+}
+.main-navigation {
+	background: transparent;
+	height: auto;
+	margin-bottom: 0;
+	min-height: 0;
+	width: auto;
+	float: right;
+	width: 761px;
+}
+
+.main-navigation div > ul.menu > li, .main-navigation .menu > ul > li {
+	float: none;
+	display: inline-block;
+	background: transparent;
+	z-index: auto;
+}
+.main-navigation div > ul.menu > li:first-child, .main-navigation .menu > ul > li:first-child {
+	padding-left: 0;
+}
+
+.main-navigation ul {
+	text-align: right;
+}
+
+.main-navigation div > ul.menu > li a, 
+.main-navigation .menu > ul > li a {
+	background: rgba(255,255,255,.5);
+	color: #355904;
+}
+
+.main-navigation div > ul.menu > li.current_page_item > a, 
+.main-navigation .menu > ul > li.current_page_item > a, 
+.main-navigation div > ul.menu > li.current-menu-item > a, 
+.main-navigation .menu > ul > li.current-menu-item > a {
+	background: rgba(255,255,255,1);
+	color: #001D32;
+}
+
+.main-navigation ul ul {
+	text-align: left;
+	background: rgba(255,255,255,1);
+	border-left: 0;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+#main {
+	background: transparent;
+	width: auto;
+	padding: 0;
+	clear: both;
+}
+
+#secondary {
+	width: 199px;
+	margin-top: 180px;
+	float: left;
+	color: #fff;
+	background: rgba(0,0,0,.5);
+}
+
+#secondary a {
+	color: #fff;
+}
+
+#secondary a:hover {
+	color: rgba(255,255,255,.5);
+}
+
+#secondary h2,
+#secondary aside{
+	background: none;
+}
+
+#secondary h2 {
+	font-family: "Six Caps",serif;
+	color: #fff;
+	font-weight: normal;
+	font-size: 1.8em;
+	margin:  0;
+	padding: 5px 1em 5px 15px;
+	background: rgba(0,0,0,.5);
+}
+
+#primary {
+	width: 761px;
+	background: rgba(255,255,255,1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+article.post {
+	background: transparent;
+	padding-bottom: 0;
+}
+
+blockquote {
+	background: transparent;
+	border-left: 0;
+	font-family: Philosopher, serif;
+	margin-left: 1em;
+	position: relative;
+}
+blockquote:after {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	top: 0;
+	right: -10px;
+	color: #000;
+	background: #fff;
+	content: '';
+}
+
+.entry-title, .entry-title a {
+	font-family: Philosopher, serif;
+	color: #CC3500;
+}
+
+#content {
+	background: transparent;
+	padding-top: 0;
+}
+
+#comments {
+	background: transparent;
+}
+#comments h2.comments-title, #reply-title {
+	font-family: Philosopher, serif;
+	color: #0055B4;
+}
+
+h1.page-title {
+	padding: 0.5em;
+}
+li.comment, li.pingback, li.trackback {
+	border: 0;
+	background: url(images/headerBk.png) left bottom repeat-x;
+	padding-bottom: 40px;
+}
+h2.comments-title,
+#comments ul.children li {
+	background: transparent;
+}
+li.comment article {
+	padding: 0;
+}
+.comment-author {
+	background: rgba(255,255,255,.5);
+	padding: 1em;
+	width: auto;
+}
+
+
+input[type="text"], input[type="password"], textarea {
+	background: url(images/search_inset.gif) repeat-x center top #fff;
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+	border-radius: 0;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	padding: 10px;
+	border-radius: 0;
+}
+footer#colophon {
+	background: transparent;
+	color: #DC5A17;
+	margin: 0 0 0 199px;
+}
+
+footer a {
+	color: #DC5A17;
+}
+footer a:hover {
+	color: #872800;
+}
+
+.site-info {
+	text-align: center;
+}
+
+.oriental-post-thumbnail {
+	border-radius: 0;
+	width: auto;
+	float: none;
+}
+
+.page-template-page-nosidebar-php #primary, 
+.attachment #primary {
+	width: auto;
+}
+.page-template-page-nosidebar-php footer#colophon,
+.attachment footer#colophon {
+	margin: 0;
+}
+
+.edit-link {
+	background: #7E9446;
+}
+a.post-edit-link, 
+a.post-edit-link:hover, 
+a.post-edit-link:focus {
+	color: #fff;
+}
+
+article.post footer.entry-meta {
+	background: url(images/headerBk.png) repeat-x scroll left bottom;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+}
+
+img.attachment-post-thumbnail {
+	margin-top: 10px;
+}
+
+/*
+.home #content article {
+	float: left;
+	width: 227px;
+	overflow: hidden;
+	height: 300px;
+	vertical-align: middle;
+	padding: 0;
+	margin: 20px;
+	margin-left: 0;
+	margin-bottom: 0;
+	position:relative;
+}
+.home #content article img {
+	min-width: 227px;
+	min-height: 300px;
+}
+.home #content article:nth-of-type(3n-2) {
+	margin-left: 20px;
+}
+.home #content article header {
+	position: absolute;
+	top: 160px;
+	left: 0;
+	background: rgba(0,0,0,.8);
+	width: 227px;
+}
+.home #content article header h1 a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Six Caps",serif;
+	display: block;
+	padding: 0 10px;
+}
+.home #content article header h1 a:hover {
+	background: #000;
+}
+.home #content article.no-thumbnail {
+	background: rgba(10,99,193,.3);
+}
+
+#content .site-navigation {
+	clear: both;
+}
+
+*/
+
+footer#colophon,
+#content .site-navigation {
+	font-family: "PT Sans Caption", Arial,Verdana,Helvetica,sans-serif;
+	font-size: .8em;
+}
+
+#wp-calendar td,
+#wp-calendar th {
+	padding: 2px;
+}
+#wp-calendar th {
+	text-align: right;
+}
+#wp-calendar tbody td {
+	text-align: right;
+}
+#today {
+	background: rgba(0,0,0,.3);
+}
+
+@media screen and (max-width:960px) {
+	html body,
+	html body.custom-background,
+	html body.custom-font-enabled {
+		background-color: #fff;
+		background-image: 
+			url(images/balloons.png), 
+			url(images/ocean.png), 
+			url(images/sun.png), 
+			url(images/skyBk.png);
+		background-repeat: 
+			no-repeat, 
+			repeat-x, 
+			no-repeat, 
+			repeat-x;
+		background-position: 
+			right top, 
+			left bottom, 
+			left top, 
+			left top;
+	}
+	#search-bar {
+		padding: 0;
+	}
+	#header-image-wrapper,
+	#search-bar {
+		position: static;
+	}
+	#masthead hgroup {
+		margin: 0;
+	}
+	
+	#page {
+		max-width: none;
+	}
+	#primary {
+		padding-bottom: 0;
+	}
+	.main-navigation,
+	#primary,
+	#secondary {
+		float: none;
+		width: auto;
+		margin: 0;
+	}
+	#masthead hgroup {
+		height: auto;
+	}
+	footer#colophon {
+		margin: 0;
+	}
+	#search-bar {
+		padding: 1em;
+		text-align: left;
+		background: none;
+	}
+	#search-bar #searchform {
+		background: none;
+	}
+	#masthead hgroup {
+		padding-top: 1em;
+		padding-left: 1em;
+	}
+	#header-image-wrapper {
+		text-align: left;
+		padding: 0 1em;
+		background: none;
+	}
+	.home #content article {
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width:760px) {
+	.tinynav {
+		margin-left: 1em;
+	}
+}
