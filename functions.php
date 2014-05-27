@@ -78,7 +78,7 @@ endif;
  * Enqueue scripts and styles
  */
 function summerDay_scripts() {
-	wp_enqueue_style( 'googleFonts', '//fonts.googleapis.com/css?family=PT Sans Caption|Six Caps|Philosopher' );
+	wp_enqueue_style( 'googleFonts', '//fonts.googleapis.com/css?family=Open Sans|Six Caps|Philosopher' );
 
 }
 add_action( 'wp_enqueue_scripts', 'summerDay_scripts' );

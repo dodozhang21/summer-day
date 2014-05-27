@@ -31,7 +31,7 @@ html body.custom-font-enabled {
 	background-position: 5% bottom, left top, right bottom, right top, left bottom, left top, left top;
 	background-attachment: fixed;
 	padding: 0;
-	font-family: "PT Sans Caption", Arial,Verdana,Helvetica,sans-serif;
+	font-family: 'Open Sans', Arial,Verdana,Helvetica,sans-serif;
 	overflow-x: hidden;
 	font-size: 16px;
 }
@@ -562,8 +562,5 @@ footer#colophon,
 		text-align: left;
 		padding: 0 1em;
 		background: none;
-	}
-	.home #content article {
-		margin-left: 20px;
 	}
 }
