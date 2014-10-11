@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                 options: {
                     //config: 'config.rb'
                     sassDir: 'sass',
-                    cssDir: '../summerDay',
+                    cssDir: '../summer-day',
 					//cssPath: '',
                     //specify: 'sass/**/*.scss',
                     outputStyle: 'compact',
