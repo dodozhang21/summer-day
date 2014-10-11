@@ -27,3 +27,5 @@ https://developers.google.com/webfonts/faq
 
 
 --------------------------------------------------------------------------------
+Summer Day WordPress Theme, Copyright 2014 WordPress.org
+Summer Day is distributed under the terms of the GNU GPL

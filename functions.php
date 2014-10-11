@@ -25,11 +25,6 @@ function summerDay_setup() {
 	add_theme_support( 'custom-header', $defaults );
 
 	/**
-	 * Add default posts and comments RSS feed links to head
-	 */
-	add_theme_support( 'automatic-feed-links' );
-
-	/**
 	 * Add post thumbnails
 	 */
 	set_post_thumbnail_size( 730, 150, true ); // default Post Thumbnail dimensions (cropped)
@@ -43,6 +38,11 @@ function summerDay_setup() {
 	 * Remove oriental infinite scroll credit
 	 */
 	remove_filter( 'infinite_scroll_credit', 'oriental_footer_credits' );
+
+	/**
+	 * Child theme text domain
+	 */
+	load_child_theme_textdomain( 'summerDay', get_stylesheet_directory() . '/languages' );
 
 }
 endif;
