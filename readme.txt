@@ -12,8 +12,8 @@ visit http://pure-essence.net/2013/04/26/child-theme-for-oriental-summer-day
 --------------------------------------------------------------------------------
  Licenses:
 --------------------------------------------------------------------------------
-Summer Day is a child theme of oriental
-oriental is licensed under the GPL.
+Summer Day WordPress Theme, Copyright 2014 WordPress.org
+Summer Day is distributed under the terms of the GNU GPL
 
 == Bundled Resources: Images ==
 
@@ -27,5 +27,3 @@ https://developers.google.com/webfonts/faq
 
 
 --------------------------------------------------------------------------------
-Summer Day WordPress Theme, Copyright 2014 WordPress.org
-Summer Day is distributed under the terms of the GNU GPL
